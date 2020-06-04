@@ -71,6 +71,6 @@
   </Target>
   <Target Name="CompileTSC" AfterTargets="AfterBuild" Inputs="@(CompileTSCInputs)" Outputs="wwwroot\Scripts\site\Serene.Web.js">
     <Message Text="Executing TypeScript compiler..." Importance="high"></Message>
-    <Exec Command="&quot;$(NodePath)\node&quot; &quot;$(TSJavaScriptFile.Replace('build\\..\tools\', 'tools\'))&quot; -p ./tsconfig.json" ContinueOnError="true" />
+    <Exec Command="npm run build" ContinueOnError="true" />
   </Target>
 </Project>

@@ -19,9 +19,12 @@
     "less": "^2.7.2",
     "vue": "^2.5.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^3.6.4"
+  },
   "scripts": {
-    "less": "lessc ./wwwroot/Content/site/site.less ./wwwroot/content/site/site.css"
+    "less": "lessc ./wwwroot/Content/site/site.less ./wwwroot/content/site/site.css",
+    "build": "tsc -p ./tsconfig.json"
   },
   "author": "",
   "license": "ISC"
