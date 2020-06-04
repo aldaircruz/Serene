@@ -2,7 +2,6 @@
   "name": "serene.aspnetcore",
   "version": "1.0.0",
   "description": "Serene ASP.NET Core",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/volkanceylan/serene"
